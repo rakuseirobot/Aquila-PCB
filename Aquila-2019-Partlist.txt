@@ -1,0 +1,127 @@
+Partlist
+
+Exported from Aquila-2019-ex.brd at 2019/03/31 14:46
+
+EAGLE Version 9.2.1 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part           Value                  Package                      Library               Position (mil)        Orientation
+
+3.3C1          100u                   D/7343-31R                   rcl                   (1089.75 3078.75)     R180
+3.3C2          0.1u                   C0805                        rcl                   (1163.75 2907.25)     R0
+3.3REG         OKL-T_6-W12N-C         OKL-T/3-W5                   SamacSys_Parts        (1300 3900)           R90
+5C1            100u                   D/7343-31R                   rcl                   (1841 3094.5)         R180
+5C2            0.1u                   C0805                        rcl                   (1671 3223)           R180
+5VREG          OKL-T_6-W12N-C         OKL-T/3-W5                   SamacSys_Parts        (2050 3900)           R90
+8MHZ           P-08669_HUSG-12.000-20 HC49U-V                      Akizuki               (2625 2281.25)        R0
+9C1            100u                   D/7343-31R                   rcl                   (726.25 2809)         R180
+9C2            0.1u                   C0805                        rcl                   (832 3075.25)         R0
+BOOT0-STM      DTS-6                  DTS-6                        forprint              (1750 662.5)          R180
+C1             22uF25V                C2012                        resistor              (1476 3329)           R270
+C2             10uF10V                C2012                        resistor              (1675 3355)           R180
+C3             22uF25V                C2012                        resistor              (828 3284)            R0
+C4             10uF10V                C2012                        resistor              (1000 3341)           R0
+C5             22pF                   C1608                        resistor              (2687.5 2425)         R0
+C6             22pF                   C1608                        resistor              (2562.5 2425)         R180
+CHECKLED       OSTA71A1D-A            OSTA71A1D-A                  FullColorLed-forprint (1450 1787.5)         R270
+CON1           XH-4                   CON4                         0@Mylibrary-main1     (3037.5 1356.25)      MR180
+CON2           XH-4                   CON4                         0@Mylibrary-main1     (3037.5 1143.75)      MR180
+DIO0-JP        BOOT0                  SJ                           jumper                (312.5 856.25)        R90
+DIO1-JP        NRST                   SJ                           jumper                (406.25 856.25)       R90
+ERROR1-R       330                    R0805                        0@Mylibrary-main1     (950 2400)            MR90
+ERROR2-R       330                    R0805                        0@Mylibrary-main1     (950 2100)            MR90
+FET1           IRF740                 TO220BV                      transistor-power      (2532 3634)           R0
+FET1-R1        100                    R0805                        0@Mylibrary-main1     (2512 3384)           R270
+FET1-R2        4.7K                   R0805                        0@Mylibrary-main1     (2432 3384)           R90
+FET2           IRF740                 TO220BV                      transistor-power      (3380.5 3722.25)      R180
+FET2-R1        100                    R0805                        0@Mylibrary-main1     (3405.75 3652.75)     R270
+FET2-R2        4.7K                   R0805                        0@Mylibrary-main1     (3482 3652.75)        R90
+GND-CH         GND                    SMD2,54-5,08                 wirepad               (400 1200)            R180
+GND-CHK        GND                    2,15/1,0                     wirepad               (1400 1000)           R0
+GND-CHK1       GND                    2,15/1,0                     wirepad               (1150 2650)           R0
+IC1            STM32F429VGT           LQFP100                      micro-stm_v3          (2600 1800)           R180
+IC2            ULN2003AN              DIL16                        ULN2003A              (1750 2500)           R90
+IC3            AT24CP                 DIL08                        atmel                 (2150 2500)           R270
+IC4            AE-AQM0802             AE-AQM0802                   AE-AQM0802            (3418.75 2931.25)     R90
+IIC-R          XH-4                   CON4                         0@Mylibrary-main1     (1350 1300)           R180
+INDILED1       330                    R0805                        0@Mylibrary-main1     (1200 2150)           R180
+INDILED2       330                    R0805                        0@Mylibrary-main1     (1200 2250)           R180
+INDILED3       330                    R0805                        0@Mylibrary-main1     (1200 2350)           R180
+INDILED4       330                    R0805                        0@Mylibrary-main1     (1200 2450)           R180
+J1             XH-5                   CON5                         0@Mylibrary-main1     (1450 2250)           MR90
+JY901          XH-4                   CON4                         0@Mylibrary-main1     (1531.25 1525)        R180
+L3             E1                     LED5MM                       0led                  (1000 2500)           R180
+L4             E2                     LED5MM                       0led                  (1000 2200)           R180
+LED1           OSL10564-CD4026B-R     DIPS1524W50P254L1260H800Q10N OSL10564-CD4026B-R    (3337.5 637.5)        R180
+LED2           OSL10564-CD4026B-R     DIPS1524W50P254L1260H800Q10N OSL10564-CD4026B-R    (3337.5 118.75)       R180
+LEDSP          MAIN                   AK500/2                      con-ptr500            (2541 3779)           R0
+LEDSP2         MAIN                   AK500/2                      con-ptr500            (2946 3779)           R0
+M-SW           TL36PO                 TL3XPO                       switch                (600 1200)            R180
+MAIN-SPL       XH-2                   CON2                         forprint              (550 2100)            MR180
+MAINSW2        MAIN                   MA03-1                       0con-lstb             (243 2718)            R90
+MOTORDRIVER    MDCON                  ML14                         0con-harting-ml       (2050 1250)           MR0
+Q3             IRF9530                TO220BV                      transistor-power      (550 3300)            R0
+Q4             IRF9530                TO220BV                      transistor-power      (355 1725)            R90
+Q5             IRF9530                TO220BV                      transistor-power      (550 3100)            R0
+R-B            ?                      R0805                        0@Mylibrary-main1     (1700 1750)           MR0
+R-G            ?                      R0805                        0@Mylibrary-main1     (1700 1850)           MR0
+R-R            ?                      R0805                        0@Mylibrary-main1     (1700 1950)           MR0
+R1             1.2k                   0204/7                       resistor              (1858 3291)           R0
+R2             1.2k                   0204/7                       resistor              (1143 3262)           R0
+RESET-STM      DTS-6                  DTS-6                        forprint              (1750 925)            R180
+S1             SKRPACE010             SW_SKRPACE010                SKRPACE010            (1475 475)            R180
+S2             VM                     M251                         switch                (2461 3160)           R180
+S3             SKRPACE010             SW_SKRPACE010                SKRPACE010            (3568.75 500)         R180
+SG1            F/EE17P                F/EE17P                      buzzer                (932 1702)            R270
+SL-R1          1K                     R0805                        0@Mylibrary-main1     (2096 3251)           R270
+SP-LED                                CHIPLED_0805                 led                   (2096 3090)           R0
+SP-R1          1.2k                   R0805                        0@Mylibrary-main1     (2100 3800)           MR180
+SP-R2          20K                    R0805                        0@Mylibrary-main1     (1395 3329)           R90
+SP-R3          1.2k                   R0805                        0@Mylibrary-main1     (1350 3800)           MR180
+SP-R4          20K                    R0805                        0@Mylibrary-main1     (828 3203)            R180
+SP-R5          4.7K                   R0805                        0@Mylibrary-main1     (535 1420)            R90
+SP-R6          4.7K                   R0805                        0@Mylibrary-main1     (412.5 2856.25)       R180
+SP-RC1         20k                    RTRIM3296W                   resistor              (2200 3700)           R180
+SP-RC2         20k                    RTRIM3296W                   resistor              (1450 3700)           R180
+SP-SW2         219-02                 CTS-219-02                   switch-dil            (1400 2950)           R180
+SPI-LCD                               FE09                         0@con-lsta            (2500 600)            R270
+SPI-R          XH-6                   CON6                         0@Mylibrary-main1     (2850 2750)           R270
+SRAM-R1        4.7K                   R0805                        0@Mylibrary-main1     (2474 2524.5)         R270
+SRAM-R2        10k                    R0805                        0@Mylibrary-main1     (2412.5 2700)         R180
+STEPINDI1      LED                    CHIPLED_0805                 led                   (1350 2150)           R270
+STEPINDI2      LED                    CHIPLED_0805                 led                   (1350 2250)           R270
+STEPINDI3      LED                    CHIPLED_0805                 led                   (1350 2350)           R270
+STEPINDI4      LED                    CHIPLED_0805                 led                   (1350 2450)           R270
+STM-C1         0.1u                   C0805                        rcl                   (2250 2112.5)         R0
+STM-C2         0.1u                   C0805                        rcl                   (2950 2150)           R270
+STM-C3         0.1u                   C0805                        rcl                   (2275 1462.5)         R90
+STM-C4         0.1u                   C0805                        rcl                   (3037.5 1556.25)      R180
+STM-C5         0.1u                   C0805                        rcl                   (3037.5 1487.5)       R0
+STM-C6         0.1u                   C0805                        rcl                   (2175 1587.5)         MR0
+STM-R1         4.7K                   R0805                        0@Mylibrary-main1     (1950 975)            R270
+STM-R2         4.7K                   R0805                        0@Mylibrary-main1     (1950 712.5)          R270
+SUOPPLY-SW2    XH-3                   CON3                         forprint              (532.25 2587.25)      MR180
+SUPPLY3.3V     MAIN                   AK500/2                      con-ptr500            (150 1800)            R270
+SUPPLY5V       MAIN                   AK500/2                      con-ptr500            (150 2200)            R270
+SUPPLY9        MAIN                   AK500/2                      con-ptr500            (150 3200)            R270
+SV1                                   MA06-1                       0con-lstb             (2050 750)            R90
+TESTSW-R1      4.7K                   R0805                        0@Mylibrary-main1     (1424.5 446.5)        MR270
+TESTSW-R2      4.7K                   R0805                        0@Mylibrary-main1     (1774 446)            MR270
+TESTSW-R3      4.7K                   R0805                        0@Mylibrary-main1     (2125 446)            MR270
+TO-UNDER                              ML26                         0con-harting-ml       (3593.75 1437.5)      MR270
+TOUCH1         XH-3                   CON3                         forprint              (2500 2900)           MR90
+TOUCH2         XH-3                   CON3                         forprint              (2250 2900)           MR90
+TW-SP          XH-2                   CON2                         0@Mylibrary-main1     (1450 750)            R90
+TWILITE        C2                     MA05-1                       con-lstb-forprint     (1129 1114)           R0
+U$2            5566-04A               5566-04A                     con-molex             (196 1303)            MR180
+U2             23K256-I/SN            SOIC127P600X175-8N           23K256-I_SN           (2625 2637.5)         R90
+VOLTAGE-METER1 XH-2                   CON2                         forprint              (996.5 2811.25)       MR270
+VOLTAGE-METER2 XH-2                   CON2                         forprint              (2200 3400)           MR0
+X-R2           4.7K                   R0805                        0@Mylibrary-main1     (932 1761)            MR90
+X2             DCJACK-MJ179P          MJ-179P                      kamiki-dcjack         (550 3550)            R270
+XB1            XBEE-PRO               XBEE-PRO                     maxstream             (650 550)             R90
+XBEE-RST       4.7K                   R0805                        0@Mylibrary-main1     (1231.25 550)         R90
+XMEGA-TEST1    SW1                    DTS-6                        forprint              (1552.5 237.5)        R180
+XMEGA-TEST2    SW2                    DTS-6                        forprint              (1902.5 237.5)        R180
+XMEGA-TEST3    SW3                    DTS-6                        forprint              (2252.5 237.5)        R180

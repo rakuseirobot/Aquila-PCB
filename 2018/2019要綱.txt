@@ -1,0 +1,23 @@
+OpenMV - SIG x3  -INT   PC13-15
+LED x2			PE5,PE6
+Full Color x3		PE2-4
+SW x3 -INT		PA10,11,12
+TOUCH x2		PA8-9
+stpping x4  		TIM4
+buzzer x1		TIM2(CH1)
+Ping x6			PD0-5
+Color x4		PD6,5 PB3,4
+RO A,B x2  ←モーターから直に!!	TIM5(CH1,2) TIM3(CH1,2)
+
+I2C Range               I2C1
+I2C LCD JY EEPROM        I2C2
+SPI SDROM(HOLD CS)  MO24-ILI9328        SPI1 PA4 PC4 PC5
+SPI - openMV SS x3           SPI2 PC10-12
+M1 INA INB EN PWM CS	 TIM1(CH1) PB2 PE7,8,10
+M2 INA INB EN PWM CS	 TIM1(CH2) PE12,13,14,15
+USART1 BOOT0 NRST		--書き込み Xbee
+SWCLK SWDIO NRST VDD-read GND NOne --STLink
+USART2 --bluetooth
+
+LED-テープ　FETx2  PD8,9
+
