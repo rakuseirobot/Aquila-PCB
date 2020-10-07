@@ -30,7 +30,9 @@ Robocup Junior Rescue Maze Program
 # Author
 
 * Shun Kayaki
+
     Kyushu institute of Technology
+    
     shun@guetan.dev
 
 * Emile
